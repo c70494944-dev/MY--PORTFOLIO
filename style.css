@@ -1,0 +1,179 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #1e3ddc;   
+  color: white;
+}
+
+
+.navbar {
+  background-color: #444;
+  padding: 12px 0;
+  border-radius: 10px ;
+}
+
+.navbar ul  {
+  list-style: none;      
+  display: flex;         
+  justify-content: center;
+   margin: 0 ;
+  padding: 15px;
+}
+
+.navbar  {
+  margin:  20px;
+}
+
+.navbar   a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+   margin: 0 20px;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+
+
+div {
+  padding: 30px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 30px;
+}
+
+p {
+  font-size: 16px;
+}
+
+h2 {
+  border-bottom: 40px ;
+  border-bottom: 2px solid white;
+  padding-bottom: 5px;
+  margin-top: 40px;
+}
+
+.college {
+  color: orange;
+}
+img {
+  float: right;
+  width: 210px;
+  border-radius: 20px;   
+  border: 3px solid black ;
+  margin: 20px;
+}
+.section {
+  background: black;
+  color: white;
+  margin: 40px;
+  padding: 30px;
+  border-radius: 15px;
+
+}
+
+
+.section h2 {
+  color: darkblue;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #1e90ff;
+  background: linear-gradient(to right, #ff512f, #dd2476);
+}
+.box {
+  background : darkblue;
+  padding: 15px 25px;
+  border-radius:   10px;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  text-align: center;
+  margin:   50px 150px;
+  margin-bottom: 40px;
+  
+}
+
+.box p {
+  margin: 5px 0;
+  font-size: 18px;
+  color: white;
+  font-weight: 500;
+}
+.nav-btn {
+  color: white;
+  text-decoration: none;
+  padding: 10px 25px;
+  border-radius: 25px;
+  background: orange;
+  border: 2px solid #1e90ff;
+  font-size: 16px;
+}
+
+
+.nav-btn:hover {
+  background: #1e90ff;
+  color: white;
+  
+}
+
+
+.active {
+  background: #1e90ff;
+}
+
+.btn{
+  color: white;
+  text-decoration: none;
+  padding: 3px 15px;
+  border-radius: 15px;
+  background: green;
+  border: 2px solid #1e90ff;
+  font-size: 16px;
+}
+.btn:hover{
+  background: red;
+  color: green;
+
+}
+.contact{
+  margin-top: 18px;
+  text-align: center;
+  font-size: 16px;  
+  color: cyan;
+  background-color: darkblue;
+  border-radius: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.footer {
+  background-color:black;
+  color: white;
+  text-align: center;
+  padding: 15px 5px;
+  margin-top: 50px;
+}
+
+.footer p {
+  margin: 5px 0;
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+.desc{
+  background-color: lightcoral;
+  color: black;
+  text-shadow: 0 0 5px #00ff00;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+}
+.hr{
+  
+  border: none;
+  height: 3px;
+  background: linear-gradient(to right, #ff512f, #dd2476);
+}
